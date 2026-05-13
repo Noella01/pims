@@ -1,0 +1,121 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+div {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  color: #000000;
+  font-size: 28px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px;
+  margin-bottom: 18px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  padding: 6px 8px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 18px;
+}
+
+input,
+select,
+button {
+  border: 1px solid #000000;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+input:focus,
+select:focus {
+  outline: 1px solid #000000;
+  border-color: #000000;
+}
+
+button {
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+th {
+  background: #000000;
+  color: #ffffff;
+}
+
+tr:hover td {
+  background: #ffffff;
+}
